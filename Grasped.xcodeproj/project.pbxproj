@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E539C81814D3FB0C005EE66D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E539C81714D3FB0C005EE66D /* UIKit.framework */; };
+		E539C81A14D3FB0C005EE66D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E539C81914D3FB0C005EE66D /* Foundation.framework */; };
+		E539C81C14D3FB0C005EE66D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E539C81B14D3FB0C005EE66D /* CoreGraphics.framework */; };
+		E539C82214D3FB0C005EE66D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E539C82014D3FB0C005EE66D /* InfoPlist.strings */; };
+		E539C82414D3FB0C005EE66D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E539C82314D3FB0C005EE66D /* main.m */; };
+		E539C82814D3FB0C005EE66D /* com_tong_graspedAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E539C82714D3FB0C005EE66D /* com_tong_graspedAppDelegate.m */; };
+		E539C82B14D3FB0C005EE66D /* com_tong_graspedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E539C82A14D3FB0C005EE66D /* com_tong_graspedViewController.m */; };
+		E539C82E14D3FB0C005EE66D /* com_tong_graspedViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E539C82C14D3FB0C005EE66D /* com_tong_graspedViewController_iPhone.xib */; };
+		E539C83114D3FB0C005EE66D /* com_tong_graspedViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E539C82F14D3FB0C005EE66D /* com_tong_graspedViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E539C81314D3FB0C005EE66D /* Grasped.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grasped.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E539C81714D3FB0C005EE66D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E539C81914D3FB0C005EE66D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E539C81B14D3FB0C005EE66D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E539C81F14D3FB0C005EE66D /* Grasped-Info.plist */ = {isa = PBXFileReference; path = "Grasped-Info.plist"; sourceTree = "<group>"; };
+		E539C82114D3FB0C005EE66D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E539C82314D3FB0C005EE66D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E539C82514D3FB0C005EE66D /* Grasped-Prefix.pch */ = {isa = PBXFileReference; path = "Grasped-Prefix.pch"; sourceTree = "<group>"; };
+		E539C82614D3FB0C005EE66D /* com_tong_graspedAppDelegate.h */ = {isa = PBXFileReference; path = com_tong_graspedAppDelegate.h; sourceTree = "<group>"; };
+		E539C82714D3FB0C005EE66D /* com_tong_graspedAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_tong_graspedAppDelegate.m; sourceTree = "<group>"; };
+		E539C82914D3FB0C005EE66D /* com_tong_graspedViewController.h */ = {isa = PBXFileReference; path = com_tong_graspedViewController.h; sourceTree = "<group>"; };
+		E539C82A14D3FB0C005EE66D /* com_tong_graspedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_tong_graspedViewController.m; sourceTree = "<group>"; };
+		E539C82D14D3FB0C005EE66D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/com_tong_graspedViewController_iPhone.xib; sourceTree = "<group>"; };
+		E539C83014D3FB0C005EE66D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/com_tong_graspedViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E539C81014D3FB0C005EE66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E539C81814D3FB0C005EE66D /* UIKit.framework in Frameworks */,
+				E539C81A14D3FB0C005EE66D /* Foundation.framework in Frameworks */,
+				E539C81C14D3FB0C005EE66D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E539C80814D3FB0C005EE66D = {
+			isa = PBXGroup;
+			children = (
+				E539C81D14D3FB0C005EE66D /* Grasped */,
+				E539C81614D3FB0C005EE66D /* Frameworks */,
+				E539C81414D3FB0C005EE66D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E539C81414D3FB0C005EE66D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E539C81314D3FB0C005EE66D /* Grasped.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E539C81614D3FB0C005EE66D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E539C81714D3FB0C005EE66D /* UIKit.framework */,
+				E539C81914D3FB0C005EE66D /* Foundation.framework */,
+				E539C81B14D3FB0C005EE66D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E539C81D14D3FB0C005EE66D /* Grasped */ = {
+			isa = PBXGroup;
+			children = (
+				E539C82614D3FB0C005EE66D /* com_tong_graspedAppDelegate.h */,
+				E539C82714D3FB0C005EE66D /* com_tong_graspedAppDelegate.m */,
+				E539C82914D3FB0C005EE66D /* com_tong_graspedViewController.h */,
+				E539C82A14D3FB0C005EE66D /* com_tong_graspedViewController.m */,
+				E539C82C14D3FB0C005EE66D /* com_tong_graspedViewController_iPhone.xib */,
+				E539C82F14D3FB0C005EE66D /* com_tong_graspedViewController_iPad.xib */,
+				E539C81E14D3FB0C005EE66D /* Supporting Files */,
+			);
+			path = Grasped;
+			sourceTree = "<group>";
+		};
+		E539C81E14D3FB0C005EE66D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E539C81F14D3FB0C005EE66D /* Grasped-Info.plist */,
+				E539C82014D3FB0C005EE66D /* InfoPlist.strings */,
+				E539C82314D3FB0C005EE66D /* main.m */,
+				E539C82514D3FB0C005EE66D /* Grasped-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E539C81214D3FB0C005EE66D /* Grasped */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E539C83414D3FB0C005EE66D /* Build configuration list for PBXNativeTarget "Grasped" */;
+			buildPhases = (
+				E539C80F14D3FB0C005EE66D /* Sources */,
+				E539C81014D3FB0C005EE66D /* Frameworks */,
+				E539C81114D3FB0C005EE66D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Grasped;
+			productName = Grasped;
+			productReference = E539C81314D3FB0C005EE66D /* Grasped.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E539C80A14D3FB0C005EE66D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Agoda.co.ltd;
+			};
+			buildConfigurationList = E539C80D14D3FB0C005EE66D /* Build configuration list for PBXProject "Grasped" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E539C80814D3FB0C005EE66D;
+			productRefGroup = E539C81414D3FB0C005EE66D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E539C81214D3FB0C005EE66D /* Grasped */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E539C81114D3FB0C005EE66D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E539C82214D3FB0C005EE66D /* InfoPlist.strings in Resources */,
+				E539C82E14D3FB0C005EE66D /* com_tong_graspedViewController_iPhone.xib in Resources */,
+				E539C83114D3FB0C005EE66D /* com_tong_graspedViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E539C80F14D3FB0C005EE66D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E539C82414D3FB0C005EE66D /* main.m in Sources */,
+				E539C82814D3FB0C005EE66D /* com_tong_graspedAppDelegate.m in Sources */,
+				E539C82B14D3FB0C005EE66D /* com_tong_graspedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E539C82014D3FB0C005EE66D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E539C82114D3FB0C005EE66D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E539C82C14D3FB0C005EE66D /* com_tong_graspedViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E539C82D14D3FB0C005EE66D /* en */,
+			);
+			name = com_tong_graspedViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		E539C82F14D3FB0C005EE66D /* com_tong_graspedViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E539C83014D3FB0C005EE66D /* en */,
+			);
+			name = com_tong_graspedViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E539C83214D3FB0C005EE66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E539C83314D3FB0C005EE66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E539C83514D3FB0C005EE66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grasped/Grasped-Prefix.pch";
+				INFOPLIST_FILE = "Grasped/Grasped-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E539C83614D3FB0C005EE66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grasped/Grasped-Prefix.pch";
+				INFOPLIST_FILE = "Grasped/Grasped-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E539C80D14D3FB0C005EE66D /* Build configuration list for PBXProject "Grasped" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E539C83214D3FB0C005EE66D /* Debug */,
+				E539C83314D3FB0C005EE66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E539C83414D3FB0C005EE66D /* Build configuration list for PBXNativeTarget "Grasped" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E539C83514D3FB0C005EE66D /* Debug */,
+				E539C83614D3FB0C005EE66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E539C80A14D3FB0C005EE66D /* Project object */;
+}
