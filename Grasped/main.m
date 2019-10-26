@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "com_tong_graspedAppDelegate.h"
+#import "GrapsDelegate.h"
 
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([com_tong_graspedAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([GrapsDelegate class]));
     }
 }
